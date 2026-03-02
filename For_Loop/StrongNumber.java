@@ -1,18 +1,63 @@
 
 public class StrongNumber {
 public static void main(String[] args) {
-System.out.println("StrongNumber Running");
+
+int n = 145;
+int temp = n;
+int sum = 0;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+int fact = 1;
+for(int i = 1; i <= d; i++)
+fact *= i;
+sum += fact;
+}
+if(sum == n)
+System.out.println("Strong Number");
+else
+System.out.println("Not Strong Number");
+
 }
 }
 
 class StrongNumber_2 {
 public static void main(String[] args) {
-System.out.println("StrongNumber_2 Running");
+
+int n = 145;
+int temp = n;
+int sum = 0;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+int fact = 1;
+for(int i = 1; i <= d; i++)
+fact *= i;
+sum += fact;
+}
+if(sum == n)
+System.out.println("Strong Number");
+else
+System.out.println("Not Strong Number");
+
 }
 }
 
 class StrongNumber_3 {
 public static void main(String[] args) {
-System.out.println("StrongNumber_3 Running");
+
+int n = 145;
+int temp = n;
+int sum = 0;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+int fact = 1;
+for(int i = 1; i <= d; i++)
+fact *= i;
+sum += fact;
+}
+if(sum == n)
+System.out.println("Strong Number");
+else
+System.out.println("Not Strong Number");
+
 }
 }

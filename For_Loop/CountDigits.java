@@ -1,18 +1,39 @@
 
 public class CountDigits {
 public static void main(String[] args) {
-System.out.println("CountDigits Running");
+
+int n = 5829;
+int count = 0;
+for(; n != 0; n /= 10) {
+count++;
+}
+System.out.println("Digits: " + count);
+
 }
 }
 
 class CountDigits_2 {
 public static void main(String[] args) {
-System.out.println("CountDigits_2 Running");
+
+int n = 5829;
+int count = 0;
+for(; n != 0; n /= 10) {
+count++;
+}
+System.out.println("Digits: " + count);
+
 }
 }
 
 class CountDigits_3 {
 public static void main(String[] args) {
-System.out.println("CountDigits_3 Running");
+
+int n = 5829;
+int count = 0;
+for(; n != 0; n /= 10) {
+count++;
+}
+System.out.println("Digits: " + count);
+
 }
 }

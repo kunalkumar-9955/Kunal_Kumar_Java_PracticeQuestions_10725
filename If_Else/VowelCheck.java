@@ -1,47 +1,49 @@
 
 import java.util.Scanner;
-
 public class VowelCheck {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter character: ");
+char ch = sc.next().charAt(0);
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+System.out.println("Vowel");
+else
+System.out.println("Consonant");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class VowelCheck_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter character: ");
+char ch = sc.next().charAt(0);
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+System.out.println("Vowel");
+else
+System.out.println("Consonant");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class VowelCheck_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter character: ");
+char ch = sc.next().charAt(0);
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+System.out.println("Vowel");
+else
+System.out.println("Consonant");
+sc.close();
+}
 }

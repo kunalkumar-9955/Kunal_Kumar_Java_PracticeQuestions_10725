@@ -1,18 +1,42 @@
 
 public class DecimalToOctal {
 public static void main(String[] args) {
-System.out.println("DecimalToOctal Running");
+
+int n = 100;
+int octal = 0, place = 1;
+for(; n != 0; n /= 8) {
+octal += (n % 8) * place;
+place *= 10;
+}
+System.out.println("Octal: " + octal);
+
 }
 }
 
 class DecimalToOctal_2 {
 public static void main(String[] args) {
-System.out.println("DecimalToOctal_2 Running");
+
+int n = 100;
+int octal = 0, place = 1;
+for(; n != 0; n /= 8) {
+octal += (n % 8) * place;
+place *= 10;
+}
+System.out.println("Octal: " + octal);
+
 }
 }
 
 class DecimalToOctal_3 {
 public static void main(String[] args) {
-System.out.println("DecimalToOctal_3 Running");
+
+int n = 100;
+int octal = 0, place = 1;
+for(; n != 0; n /= 8) {
+octal += (n % 8) * place;
+place *= 10;
+}
+System.out.println("Octal: " + octal);
+
 }
 }

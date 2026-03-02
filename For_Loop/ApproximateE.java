@@ -1,18 +1,45 @@
 
 public class ApproximateE {
 public static void main(String[] args) {
-System.out.println("ApproximateE Running");
+
+int n = 10;
+double e = 1.0;
+double fact = 1.0;
+for(int i = 1; i <= n; i++) {
+fact *= i;
+e += 1.0 / fact;
+}
+System.out.println("e: " + e);
+
 }
 }
 
 class ApproximateE_2 {
 public static void main(String[] args) {
-System.out.println("ApproximateE_2 Running");
+
+int n = 10;
+double e = 1.0;
+double fact = 1.0;
+for(int i = 1; i <= n; i++) {
+fact *= i;
+e += 1.0 / fact;
+}
+System.out.println("e: " + e);
+
 }
 }
 
 class ApproximateE_3 {
 public static void main(String[] args) {
-System.out.println("ApproximateE_3 Running");
+
+int n = 10;
+double e = 1.0;
+double fact = 1.0;
+for(int i = 1; i <= n; i++) {
+fact *= i;
+e += 1.0 / fact;
+}
+System.out.println("e: " + e);
+
 }
 }

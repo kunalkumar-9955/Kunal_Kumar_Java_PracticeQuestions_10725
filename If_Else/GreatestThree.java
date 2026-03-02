@@ -1,47 +1,64 @@
 
 import java.util.Scanner;
-
 public class GreatestThree {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter first number: ");
+int a = sc.nextInt();
+System.out.print("Enter second number: ");
+int b = sc.nextInt();
+System.out.print("Enter third number: ");
+int c = sc.nextInt();
+if(a >= b && a >= c)
+System.out.println("Greatest: " + a);
+else if(b >= c)
+System.out.println("Greatest: " + b);
+else
+System.out.println("Greatest: " + c);
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class GreatestThree_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter first number: ");
+int a = sc.nextInt();
+System.out.print("Enter second number: ");
+int b = sc.nextInt();
+System.out.print("Enter third number: ");
+int c = sc.nextInt();
+if(a >= b && a >= c)
+System.out.println("Greatest: " + a);
+else if(b >= c)
+System.out.println("Greatest: " + b);
+else
+System.out.println("Greatest: " + c);
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class GreatestThree_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter first number: ");
+int a = sc.nextInt();
+System.out.print("Enter second number: ");
+int b = sc.nextInt();
+System.out.print("Enter third number: ");
+int c = sc.nextInt();
+if(a >= b && a >= c)
+System.out.println("Greatest: " + a);
+else if(b >= c)
+System.out.println("Greatest: " + b);
+else
+System.out.println("Greatest: " + c);
+sc.close();
+}
 }

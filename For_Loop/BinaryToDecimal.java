@@ -1,18 +1,48 @@
 
 public class BinaryToDecimal {
 public static void main(String[] args) {
-System.out.println("BinaryToDecimal Running");
+
+long binary = 1010;
+int decimal = 0;
+int base = 1;
+for(; binary > 0; binary /= 10) {
+int lastDigit = (int)(binary % 10);
+decimal += lastDigit * base;
+base *= 2;
+}
+System.out.println("Decimal: " + decimal);
+
 }
 }
 
 class BinaryToDecimal_2 {
 public static void main(String[] args) {
-System.out.println("BinaryToDecimal_2 Running");
+
+long binary = 1010;
+int decimal = 0;
+int base = 1;
+for(; binary > 0; binary /= 10) {
+int lastDigit = (int)(binary % 10);
+decimal += lastDigit * base;
+base *= 2;
+}
+System.out.println("Decimal: " + decimal);
+
 }
 }
 
 class BinaryToDecimal_3 {
 public static void main(String[] args) {
-System.out.println("BinaryToDecimal_3 Running");
+
+long binary = 1010;
+int decimal = 0;
+int base = 1;
+for(; binary > 0; binary /= 10) {
+int lastDigit = (int)(binary % 10);
+decimal += lastDigit * base;
+base *= 2;
+}
+System.out.println("Decimal: " + decimal);
+
 }
 }

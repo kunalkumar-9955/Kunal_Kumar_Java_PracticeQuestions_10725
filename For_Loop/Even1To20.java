@@ -1,18 +1,30 @@
 
 public class Even1To20 {
 public static void main(String[] args) {
-System.out.println("Even1To20 Running");
+for(int i = 1; i <= 20; i++) {
+if(i % 2 == 0) {
+System.out.print(i + " ");
+}
+}
 }
 }
 
 class Even1To20_2 {
 public static void main(String[] args) {
-System.out.println("Even1To20_2 Running");
+for(int i = 1; i <= 20; i++) {
+if(i % 2 == 0) {
+System.out.print(i + " ");
+}
+}
 }
 }
 
 class Even1To20_3 {
 public static void main(String[] args) {
-System.out.println("Even1To20_3 Running");
+for(int i = 1; i <= 20; i++) {
+if(i % 2 == 0) {
+System.out.print(i + " ");
+}
+}
 }
 }

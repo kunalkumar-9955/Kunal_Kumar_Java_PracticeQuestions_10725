@@ -1,47 +1,46 @@
 
 import java.util.Scanner;
-
 public class PasswordCheck {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter password: ");
+String pass = sc.nextLine();
+if(pass.equals("admin123"))
+System.out.println("Access Granted");
+else
+System.out.println("Access Denied");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class PasswordCheck_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter password: ");
+String pass = sc.nextLine();
+if(pass.equals("admin123"))
+System.out.println("Access Granted");
+else
+System.out.println("Access Denied");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class PasswordCheck_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter password: ");
+String pass = sc.nextLine();
+if(pass.equals("admin123"))
+System.out.println("Access Granted");
+else
+System.out.println("Access Denied");
+sc.close();
+}
 }

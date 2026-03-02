@@ -1,18 +1,39 @@
 
 public class ProductOfDigits {
 public static void main(String[] args) {
-System.out.println("ProductOfDigits Running");
+
+int n = 452;
+int product = 1;
+for(; n != 0; n /= 10) {
+product *= n % 10;
+}
+System.out.println("Product: " + product);
+
 }
 }
 
 class ProductOfDigits_2 {
 public static void main(String[] args) {
-System.out.println("ProductOfDigits_2 Running");
+
+int n = 452;
+int product = 1;
+for(; n != 0; n /= 10) {
+product *= n % 10;
+}
+System.out.println("Product: " + product);
+
 }
 }
 
 class ProductOfDigits_3 {
 public static void main(String[] args) {
-System.out.println("ProductOfDigits_3 Running");
+
+int n = 452;
+int product = 1;
+for(; n != 0; n /= 10) {
+product *= n % 10;
+}
+System.out.println("Product: " + product);
+
 }
 }

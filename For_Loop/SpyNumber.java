@@ -1,18 +1,57 @@
 
 public class SpyNumber {
 public static void main(String[] args) {
-System.out.println("SpyNumber Running");
+
+int n = 1124;
+int sum = 0, product = 1;
+int temp = n;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+sum += d;
+product *= d;
+}
+if(sum == product)
+System.out.println("Spy Number");
+else
+System.out.println("Not Spy Number");
+
 }
 }
 
 class SpyNumber_2 {
 public static void main(String[] args) {
-System.out.println("SpyNumber_2 Running");
+
+int n = 1124;
+int sum = 0, product = 1;
+int temp = n;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+sum += d;
+product *= d;
+}
+if(sum == product)
+System.out.println("Spy Number");
+else
+System.out.println("Not Spy Number");
+
 }
 }
 
 class SpyNumber_3 {
 public static void main(String[] args) {
-System.out.println("SpyNumber_3 Running");
+
+int n = 1124;
+int sum = 0, product = 1;
+int temp = n;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+sum += d;
+product *= d;
+}
+if(sum == product)
+System.out.println("Spy Number");
+else
+System.out.println("Not Spy Number");
+
 }
 }

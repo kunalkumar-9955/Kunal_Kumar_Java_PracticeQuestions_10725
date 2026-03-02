@@ -1,18 +1,45 @@
 
 public class DecimalToBinary {
 public static void main(String[] args) {
-System.out.println("DecimalToBinary Running");
+
+int n = 10;
+for(int i = 31; i >= 0; i--) {
+int k = n >> i;
+if((k & 1) == 1)
+System.out.print("1");
+else
+System.out.print("0");
+}
+
 }
 }
 
 class DecimalToBinary_2 {
 public static void main(String[] args) {
-System.out.println("DecimalToBinary_2 Running");
+
+int n = 10;
+for(int i = 31; i >= 0; i--) {
+int k = n >> i;
+if((k & 1) == 1)
+System.out.print("1");
+else
+System.out.print("0");
+}
+
 }
 }
 
 class DecimalToBinary_3 {
 public static void main(String[] args) {
-System.out.println("DecimalToBinary_3 Running");
+
+int n = 10;
+for(int i = 31; i >= 0; i--) {
+int k = n >> i;
+if((k & 1) == 1)
+System.out.print("1");
+else
+System.out.print("0");
+}
+
 }
 }

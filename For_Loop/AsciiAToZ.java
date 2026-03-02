@@ -1,18 +1,24 @@
 
 public class AsciiAToZ {
 public static void main(String[] args) {
-System.out.println("AsciiAToZ Running");
+for(char c = 'a'; c <= 'z'; c++) {
+System.out.println(c + " = " + (int)c);
+}
 }
 }
 
 class AsciiAToZ_2 {
 public static void main(String[] args) {
-System.out.println("AsciiAToZ_2 Running");
+for(char c = 'a'; c <= 'z'; c++) {
+System.out.println(c + " = " + (int)c);
+}
 }
 }
 
 class AsciiAToZ_3 {
 public static void main(String[] args) {
-System.out.println("AsciiAToZ_3 Running");
+for(char c = 'a'; c <= 'z'; c++) {
+System.out.println(c + " = " + (int)c);
+}
 }
 }

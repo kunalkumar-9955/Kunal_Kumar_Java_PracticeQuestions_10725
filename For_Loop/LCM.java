@@ -1,18 +1,45 @@
 
 public class LCM {
 public static void main(String[] args) {
-System.out.println("LCM Running");
+
+int n1 = 4, n2 = 6;
+int max = Math.max(n1, n2);
+for(;; max++) {
+if(max % n1 == 0 && max % n2 == 0) {
+System.out.println("LCM: " + max);
+break;
+}
+}
+
 }
 }
 
 class LCM_2 {
 public static void main(String[] args) {
-System.out.println("LCM_2 Running");
+
+int n1 = 4, n2 = 6;
+int max = Math.max(n1, n2);
+for(;; max++) {
+if(max % n1 == 0 && max % n2 == 0) {
+System.out.println("LCM: " + max);
+break;
+}
+}
+
 }
 }
 
 class LCM_3 {
 public static void main(String[] args) {
-System.out.println("LCM_3 Running");
+
+int n1 = 4, n2 = 6;
+int max = Math.max(n1, n2);
+for(;; max++) {
+if(max % n1 == 0 && max % n2 == 0) {
+System.out.println("LCM: " + max);
+break;
+}
+}
+
 }
 }

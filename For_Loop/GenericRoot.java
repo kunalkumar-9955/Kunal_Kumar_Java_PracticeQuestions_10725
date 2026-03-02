@@ -1,18 +1,48 @@
 
 public class GenericRoot {
 public static void main(String[] args) {
-System.out.println("GenericRoot Running");
+
+int n = 99;
+for(; n > 9;) {
+int sum = 0;
+int temp = n;
+for(; temp > 0; temp /= 10)
+sum += temp % 10;
+n = sum;
+}
+System.out.println("Generic Root: " + n);
+
 }
 }
 
 class GenericRoot_2 {
 public static void main(String[] args) {
-System.out.println("GenericRoot_2 Running");
+
+int n = 99;
+for(; n > 9;) {
+int sum = 0;
+int temp = n;
+for(; temp > 0; temp /= 10)
+sum += temp % 10;
+n = sum;
+}
+System.out.println("Generic Root: " + n);
+
 }
 }
 
 class GenericRoot_3 {
 public static void main(String[] args) {
-System.out.println("GenericRoot_3 Running");
+
+int n = 99;
+for(; n > 9;) {
+int sum = 0;
+int temp = n;
+for(; temp > 0; temp /= 10)
+sum += temp % 10;
+n = sum;
+}
+System.out.println("Generic Root: " + n);
+
 }
 }

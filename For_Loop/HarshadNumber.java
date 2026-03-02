@@ -1,18 +1,48 @@
 
 public class HarshadNumber {
 public static void main(String[] args) {
-System.out.println("HarshadNumber Running");
+
+int n = 18;
+int temp = n;
+int sum = 0;
+for(; temp != 0; temp /= 10)
+sum += temp % 10;
+if(n % sum == 0)
+System.out.println("Harshad Number");
+else
+System.out.println("Not Harshad Number");
+
 }
 }
 
 class HarshadNumber_2 {
 public static void main(String[] args) {
-System.out.println("HarshadNumber_2 Running");
+
+int n = 18;
+int temp = n;
+int sum = 0;
+for(; temp != 0; temp /= 10)
+sum += temp % 10;
+if(n % sum == 0)
+System.out.println("Harshad Number");
+else
+System.out.println("Not Harshad Number");
+
 }
 }
 
 class HarshadNumber_3 {
 public static void main(String[] args) {
-System.out.println("HarshadNumber_3 Running");
+
+int n = 18;
+int temp = n;
+int sum = 0;
+for(; temp != 0; temp /= 10)
+sum += temp % 10;
+if(n % sum == 0)
+System.out.println("Harshad Number");
+else
+System.out.println("Not Harshad Number");
+
 }
 }

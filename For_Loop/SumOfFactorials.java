@@ -1,18 +1,45 @@
 
 public class SumOfFactorials {
 public static void main(String[] args) {
-System.out.println("SumOfFactorials Running");
+
+int n = 5;
+int fact = 1;
+int sum = 0;
+for(int i = 1; i <= n; i++) {
+fact *= i;
+sum += fact;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class SumOfFactorials_2 {
 public static void main(String[] args) {
-System.out.println("SumOfFactorials_2 Running");
+
+int n = 5;
+int fact = 1;
+int sum = 0;
+for(int i = 1; i <= n; i++) {
+fact *= i;
+sum += fact;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class SumOfFactorials_3 {
 public static void main(String[] args) {
-System.out.println("SumOfFactorials_3 Running");
+
+int n = 5;
+int fact = 1;
+int sum = 0;
+for(int i = 1; i <= n; i++) {
+fact *= i;
+sum += fact;
+}
+System.out.println("Sum: " + sum);
+
 }
 }

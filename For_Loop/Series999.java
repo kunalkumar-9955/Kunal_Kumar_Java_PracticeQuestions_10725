@@ -1,18 +1,45 @@
 
 public class Series999 {
 public static void main(String[] args) {
-System.out.println("Series999 Running");
+
+int n = 5;
+long term = 9;
+long sum = 0;
+for(int i = 1; i <= n; i++) {
+sum += term;
+term = term * 10 + 9;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class Series999_2 {
 public static void main(String[] args) {
-System.out.println("Series999_2 Running");
+
+int n = 5;
+long term = 9;
+long sum = 0;
+for(int i = 1; i <= n; i++) {
+sum += term;
+term = term * 10 + 9;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class Series999_3 {
 public static void main(String[] args) {
-System.out.println("Series999_3 Running");
+
+int n = 5;
+long term = 9;
+long sum = 0;
+for(int i = 1; i <= n; i++) {
+sum += term;
+term = term * 10 + 9;
+}
+System.out.println("Sum: " + sum);
+
 }
 }

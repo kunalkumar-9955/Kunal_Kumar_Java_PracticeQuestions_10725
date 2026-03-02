@@ -1,47 +1,52 @@
 
 import java.util.Scanner;
-
 public class Bonus {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter salary: ");
+double salary = sc.nextDouble();
+System.out.print("Enter years of service: ");
+int years = sc.nextInt();
+if(years > 5)
+System.out.println("Total Salary with Bonus: " + (salary + salary * 0.1));
+else
+System.out.println("No Bonus");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class Bonus_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter salary: ");
+double salary = sc.nextDouble();
+System.out.print("Enter years of service: ");
+int years = sc.nextInt();
+if(years > 5)
+System.out.println("Total Salary with Bonus: " + (salary + salary * 0.1));
+else
+System.out.println("No Bonus");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class Bonus_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter salary: ");
+double salary = sc.nextDouble();
+System.out.print("Enter years of service: ");
+int years = sc.nextInt();
+if(years > 5)
+System.out.println("Total Salary with Bonus: " + (salary + salary * 0.1));
+else
+System.out.println("No Bonus");
+sc.close();
+}
 }

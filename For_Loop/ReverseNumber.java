@@ -1,18 +1,39 @@
 
 public class ReverseNumber {
 public static void main(String[] args) {
-System.out.println("ReverseNumber Running");
+
+int n = 9876;
+int rev = 0;
+for(; n != 0; n /= 10) {
+rev = rev * 10 + n % 10;
+}
+System.out.println("Reversed: " + rev);
+
 }
 }
 
 class ReverseNumber_2 {
 public static void main(String[] args) {
-System.out.println("ReverseNumber_2 Running");
+
+int n = 9876;
+int rev = 0;
+for(; n != 0; n /= 10) {
+rev = rev * 10 + n % 10;
+}
+System.out.println("Reversed: " + rev);
+
 }
 }
 
 class ReverseNumber_3 {
 public static void main(String[] args) {
-System.out.println("ReverseNumber_3 Running");
+
+int n = 9876;
+int rev = 0;
+for(; n != 0; n /= 10) {
+rev = rev * 10 + n % 10;
+}
+System.out.println("Reversed: " + rev);
+
 }
 }

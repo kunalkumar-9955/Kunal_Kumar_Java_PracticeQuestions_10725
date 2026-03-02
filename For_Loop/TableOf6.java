@@ -1,18 +1,27 @@
 
 public class TableOf6 {
 public static void main(String[] args) {
-System.out.println("TableOf6 Running");
+int n = 6;
+for(int i = 1; i <= 10; i++) {
+System.out.println(n + " * " + i + " = " + (n * i));
+}
 }
 }
 
 class TableOf6_2 {
 public static void main(String[] args) {
-System.out.println("TableOf6_2 Running");
+int n = 6;
+for(int i = 1; i <= 10; i++) {
+System.out.println(n + " * " + i + " = " + (n * i));
+}
 }
 }
 
 class TableOf6_3 {
 public static void main(String[] args) {
-System.out.println("TableOf6_3 Running");
+int n = 6;
+for(int i = 1; i <= 10; i++) {
+System.out.println(n + " * " + i + " = " + (n * i));
+}
 }
 }

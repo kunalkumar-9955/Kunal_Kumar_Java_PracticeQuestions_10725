@@ -1,47 +1,52 @@
 
 import java.util.Scanner;
-
 public class ElectricityBill {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter units consumed: ");
+int units = sc.nextInt();
+int bill;
+if(units <= 100)
+bill = units * 5;
+else
+bill = (100 * 5) + (units - 100) * 10;
+System.out.println("Total Bill: " + bill);
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class ElectricityBill_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter units consumed: ");
+int units = sc.nextInt();
+int bill;
+if(units <= 100)
+bill = units * 5;
+else
+bill = (100 * 5) + (units - 100) * 10;
+System.out.println("Total Bill: " + bill);
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class ElectricityBill_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter units consumed: ");
+int units = sc.nextInt();
+int bill;
+if(units <= 100)
+bill = units * 5;
+else
+bill = (100 * 5) + (units - 100) * 10;
+System.out.println("Total Bill: " + bill);
+sc.close();
+}
 }

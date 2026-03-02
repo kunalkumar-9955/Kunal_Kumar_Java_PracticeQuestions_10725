@@ -1,47 +1,58 @@
 
 import java.util.Scanner;
-
 public class Division {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter percentage: ");
+double per = sc.nextDouble();
+if(per >= 60)
+System.out.println("First Division");
+else if(per >= 50)
+System.out.println("Second Division");
+else if(per >= 40)
+System.out.println("Third Division");
+else
+System.out.println("Fail");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class Division_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter percentage: ");
+double per = sc.nextDouble();
+if(per >= 60)
+System.out.println("First Division");
+else if(per >= 50)
+System.out.println("Second Division");
+else if(per >= 40)
+System.out.println("Third Division");
+else
+System.out.println("Fail");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class Division_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter percentage: ");
+double per = sc.nextDouble();
+if(per >= 60)
+System.out.println("First Division");
+else if(per >= 50)
+System.out.println("Second Division");
+else if(per >= 40)
+System.out.println("Third Division");
+else
+System.out.println("Fail");
+sc.close();
+}
 }

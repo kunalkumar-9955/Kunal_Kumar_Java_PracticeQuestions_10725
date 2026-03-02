@@ -1,18 +1,39 @@
 
 public class IntegerSquareRoot {
 public static void main(String[] args) {
-System.out.println("IntegerSquareRoot Running");
+
+int n = 50;
+int root = 1;
+for(int i = 1; i * i <= n; i++) {
+root = i;
+}
+System.out.println("Sqrt (floor): " + root);
+
 }
 }
 
 class IntegerSquareRoot_2 {
 public static void main(String[] args) {
-System.out.println("IntegerSquareRoot_2 Running");
+
+int n = 50;
+int root = 1;
+for(int i = 1; i * i <= n; i++) {
+root = i;
+}
+System.out.println("Sqrt (floor): " + root);
+
 }
 }
 
 class IntegerSquareRoot_3 {
 public static void main(String[] args) {
-System.out.println("IntegerSquareRoot_3 Running");
+
+int n = 50;
+int root = 1;
+for(int i = 1; i * i <= n; i++) {
+root = i;
+}
+System.out.println("Sqrt (floor): " + root);
+
 }
 }

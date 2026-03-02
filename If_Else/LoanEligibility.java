@@ -1,47 +1,58 @@
 
 import java.util.Scanner;
-
 public class LoanEligibility {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter age: ");
+int age = sc.nextInt();
+System.out.print("Enter monthly income: ");
+double income = sc.nextDouble();
+System.out.print("Enter credit score: ");
+int score = sc.nextInt();
+if(age >= 21 && age <= 60 && income >= 25000 && score >= 700)
+System.out.println("Loan Approved");
+else
+System.out.println("Loan Rejected");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class LoanEligibility_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter age: ");
+int age = sc.nextInt();
+System.out.print("Enter monthly income: ");
+double income = sc.nextDouble();
+System.out.print("Enter credit score: ");
+int score = sc.nextInt();
+if(age >= 21 && age <= 60 && income >= 25000 && score >= 700)
+System.out.println("Loan Approved");
+else
+System.out.println("Loan Rejected");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class LoanEligibility_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter age: ");
+int age = sc.nextInt();
+System.out.print("Enter monthly income: ");
+double income = sc.nextDouble();
+System.out.print("Enter credit score: ");
+int score = sc.nextInt();
+if(age >= 21 && age <= 60 && income >= 25000 && score >= 700)
+System.out.println("Loan Approved");
+else
+System.out.println("Loan Rejected");
+sc.close();
+}
 }

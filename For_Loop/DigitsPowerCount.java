@@ -1,18 +1,63 @@
 
 public class DigitsPowerCount {
 public static void main(String[] args) {
-System.out.println("DigitsPowerCount Running");
+
+int n = 123;
+int temp = n;
+int count = 0;
+for(int t = n; t != 0; t /= 10)
+count++;
+int sum = 0;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+int p = 1;
+for(int j = 1; j <= count; j++)
+p *= d;
+sum += p;
+}
+System.out.println("Result: " + sum);
+
 }
 }
 
 class DigitsPowerCount_2 {
 public static void main(String[] args) {
-System.out.println("DigitsPowerCount_2 Running");
+
+int n = 123;
+int temp = n;
+int count = 0;
+for(int t = n; t != 0; t /= 10)
+count++;
+int sum = 0;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+int p = 1;
+for(int j = 1; j <= count; j++)
+p *= d;
+sum += p;
+}
+System.out.println("Result: " + sum);
+
 }
 }
 
 class DigitsPowerCount_3 {
 public static void main(String[] args) {
-System.out.println("DigitsPowerCount_3 Running");
+
+int n = 123;
+int temp = n;
+int count = 0;
+for(int t = n; t != 0; t /= 10)
+count++;
+int sum = 0;
+for(; temp != 0; temp /= 10) {
+int d = temp % 10;
+int p = 1;
+for(int j = 1; j <= count; j++)
+p *= d;
+sum += p;
+}
+System.out.println("Result: " + sum);
+
 }
 }

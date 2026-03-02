@@ -1,18 +1,39 @@
 
 public class HarmonicSeries {
 public static void main(String[] args) {
-System.out.println("HarmonicSeries Running");
+
+int n = 5;
+double sum = 0.0;
+for(int i = 1; i <= n; i++) {
+sum += 1.0 / i;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class HarmonicSeries_2 {
 public static void main(String[] args) {
-System.out.println("HarmonicSeries_2 Running");
+
+int n = 5;
+double sum = 0.0;
+for(int i = 1; i <= n; i++) {
+sum += 1.0 / i;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class HarmonicSeries_3 {
 public static void main(String[] args) {
-System.out.println("HarmonicSeries_3 Running");
+
+int n = 5;
+double sum = 0.0;
+for(int i = 1; i <= n; i++) {
+sum += 1.0 / i;
+}
+System.out.println("Sum: " + sum);
+
 }
 }

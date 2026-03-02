@@ -1,18 +1,48 @@
 
 public class FibonacciSeries {
 public static void main(String[] args) {
-System.out.println("FibonacciSeries Running");
+
+int n = 10;
+int t1 = 0, t2 = 1;
+System.out.print(t1 + " " + t2 + " ");
+for(int i = 3; i <= n; i++) {
+int next = t1 + t2;
+System.out.print(next + " ");
+t1 = t2;
+t2 = next;
+}
+
 }
 }
 
 class FibonacciSeries_2 {
 public static void main(String[] args) {
-System.out.println("FibonacciSeries_2 Running");
+
+int n = 10;
+int t1 = 0, t2 = 1;
+System.out.print(t1 + " " + t2 + " ");
+for(int i = 3; i <= n; i++) {
+int next = t1 + t2;
+System.out.print(next + " ");
+t1 = t2;
+t2 = next;
+}
+
 }
 }
 
 class FibonacciSeries_3 {
 public static void main(String[] args) {
-System.out.println("FibonacciSeries_3 Running");
+
+int n = 10;
+int t1 = 0, t2 = 1;
+System.out.print(t1 + " " + t2 + " ");
+for(int i = 3; i <= n; i++) {
+int next = t1 + t2;
+System.out.print(next + " ");
+t1 = t2;
+t2 = next;
+}
+
 }
 }

@@ -1,47 +1,46 @@
 
 import java.util.Scanner;
-
 public class LeapYear {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter year: ");
+int year = sc.nextInt();
+if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+System.out.println("Leap Year");
+else
+System.out.println("Not Leap Year");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class LeapYear_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter year: ");
+int year = sc.nextInt();
+if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+System.out.println("Leap Year");
+else
+System.out.println("Not Leap Year");
+sc.close();
+}
 }
 
+
+
+import java.util.Scanner;
 class LeapYear_3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = sc.nextInt();
-
-        if(n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-
-        sc.close();
-    }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter year: ");
+int year = sc.nextInt();
+if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+System.out.println("Leap Year");
+else
+System.out.println("Not Leap Year");
+sc.close();
+}
 }

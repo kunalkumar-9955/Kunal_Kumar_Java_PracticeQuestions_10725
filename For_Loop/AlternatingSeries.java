@@ -1,18 +1,48 @@
 
 public class AlternatingSeries {
 public static void main(String[] args) {
-System.out.println("AlternatingSeries Running");
+
+int n = 5;
+double sum = 0.0;
+for(int i = 1; i <= n; i++) {
+if(i % 2 == 0)
+sum -= 1.0 / i;
+else
+sum += 1.0 / i;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class AlternatingSeries_2 {
 public static void main(String[] args) {
-System.out.println("AlternatingSeries_2 Running");
+
+int n = 5;
+double sum = 0.0;
+for(int i = 1; i <= n; i++) {
+if(i % 2 == 0)
+sum -= 1.0 / i;
+else
+sum += 1.0 / i;
+}
+System.out.println("Sum: " + sum);
+
 }
 }
 
 class AlternatingSeries_3 {
 public static void main(String[] args) {
-System.out.println("AlternatingSeries_3 Running");
+
+int n = 5;
+double sum = 0.0;
+for(int i = 1; i <= n; i++) {
+if(i % 2 == 0)
+sum -= 1.0 / i;
+else
+sum += 1.0 / i;
+}
+System.out.println("Sum: " + sum);
+
 }
 }

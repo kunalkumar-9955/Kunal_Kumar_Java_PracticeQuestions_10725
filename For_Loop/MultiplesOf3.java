@@ -1,18 +1,24 @@
 
 public class MultiplesOf3 {
 public static void main(String[] args) {
-System.out.println("MultiplesOf3 Running");
+for(int i = 3; i <= 30; i += 3) {
+System.out.print(i + " ");
+}
 }
 }
 
 class MultiplesOf3_2 {
 public static void main(String[] args) {
-System.out.println("MultiplesOf3_2 Running");
+for(int i = 3; i <= 30; i += 3) {
+System.out.print(i + " ");
+}
 }
 }
 
 class MultiplesOf3_3 {
 public static void main(String[] args) {
-System.out.println("MultiplesOf3_3 Running");
+for(int i = 3; i <= 30; i += 3) {
+System.out.print(i + " ");
+}
 }
 }
